@@ -31,7 +31,9 @@ public class Exercicio5 {
             numero = Integer.parseInt(numeroEntrada);
         } catch (NumberFormatException e) {
             if (numeroEntrada.contains("desistir")) {
-                System.out.println("");
+                System.out.println("Número incorreto. Número era: "+aleatorio);
+            } else{
+                System.out.println("número invalido.");
             }
         }
         return numero;
@@ -51,7 +53,7 @@ public class Exercicio5 {
         boolean teste = false;
         int numeroAdvinhado = 0;
         do {
-            numeroAdvinhado = numeroAdvinhado();
+            numeroAdvinhado = numeroAdvinhado(aleatorio);
             teste = testeNumero(aleatorio, numeroAdvinhado);
         } while (!teste);
         return teste;
