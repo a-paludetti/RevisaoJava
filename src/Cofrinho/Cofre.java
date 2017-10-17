@@ -7,12 +7,13 @@ package Cofrinho;
 
 import Cofrinho.Moeda;
 
+
 /**
  *
  * @author aline.poliveira3
  */
 public class Cofre {
-
+    private ArrayList.Produto
     private ArrayList<Moeda> moedas;
 
     public Cofre() {
