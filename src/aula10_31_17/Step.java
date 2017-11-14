@@ -1,4 +1,4 @@
-package aula31_10_17;
+package aula10_31_17;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -38,8 +38,24 @@ public class Step { //nova Classe Pilha
             System.out.println("~~cheio~~");
         }
     }
-    
-    public Object pop(){
+
+    public Object pop() {
+        if (!isEmpty()) {
+            Object x = dados[topo];
+            topo--;
+            return x;
+        } else {
+            System.out.println("~~vazio~~");
+            return null;
+        }
     }
 
+    public Object top() {
+        if (!isEmpty()) {
+            return dados[topo];
+        } else {
+            System.out.println("~~vazio~~");
+            return null;
+        }
+    }
 }

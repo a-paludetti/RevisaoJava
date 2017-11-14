@@ -1,8 +1,8 @@
-package aula31_10_17;
+package aula10_31_17;
 
 
 import java.util.Scanner;
-import aula31_10_17.Step;
+import aula10_31_17.Step;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -14,7 +14,7 @@ import aula31_10_17.Step;
  *
  * @author aline.poliveira3
  */
-public class dia31_10_10 {
+public class dia31_10_17 {
   
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
