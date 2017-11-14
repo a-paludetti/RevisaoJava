@@ -33,6 +33,7 @@ public class exercicio03 {
 
         for (int i = 0; i < palavra.length(); i++) {
             fila.enqueue(pilha1.pop());
+            
         }
 
     }
